@@ -1,0 +1,233 @@
+.navbar-nav > li {
+		float: none;
+	}
+	.nav > li {
+		display: list-item;
+		position: relative;
+	}
+	.card-div {
+		padding:20px;
+	}
+	.drag {
+		/*width: 150px;
+		height: 150px;*/
+		border: 1px solid black;
+		border-radius: 5px;
+		/*padding: 5px;
+		margin-left: 5px;*/
+		text-algin: center;
+		/*background-color: lightgreen;*/
+		float: left;
+	}
+	.textArea {
+		font-size:12px;
+		line-height: 1.2em;
+		height:100%;
+		width:100%;
+		cursor:text;
+	}
+	.square:hover {
+		border:1px solid grey;
+	}
+	p {
+		margin-bottom:0px;
+	}
+	.square {
+		max-width:100%;
+		max-height:100%;
+		min-width:130px;
+		min-height:20px;
+		position:relative;
+		border:4px dotted transparent;
+		background:transparent;
+	}
+	#drag1 {
+		height:170px;
+		width:220px;
+	}
+	#imageView {
+		padding:5px;
+	}
+	.angular-meditor-toolbar ul {
+		list-style:none;
+	}
+	.angular-meditor-toolbar ul li {
+		float:left;
+	}
+	.angular-meditor-toolbar button, .angular-meditor-toolbar select {
+		background-color: #222;
+		border-bottom-color: #2f2f2f;
+		border-bottom-style: solid;
+		border-bottom-width: 0;
+		border-left-color: #2f2f2f;
+		border-left-style: solid;
+		border-left-width: 0;
+		border-right-color: #2f2f2f;
+		border-right-style: solid;
+		border-right-width: 0;
+		border-top-color: #2f2f2f;
+		border-top-style: solid;
+		border-top-width: 1px;
+		box-shadow: none;
+		color: #efefef;
+		float: left;
+		font-size: 1em;
+		height: 2.25em;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		padding-bottom: 0.5em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+		padding-top: 0.5em;
+		transition-delay: 0s;
+		transition-duration: 0.1s;
+		transition-property: all;
+		transition-timing-function: ease;
+	}
+	.angular-meditor-toolbar button:hover, .angular-meditor-toolbar select:hover {
+		background-color:#151515;
+		cursor:pointer;
+	}
+	.angular-meditor-toolbar .meditor-select {
+		font-size: 1em;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		min-width: 3.25em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+		position: relative;
+	}
+	select {
+	  margin: 0;
+	  border-color: ThreeDLightShadow;
+	  background-color: -moz-Combobox;
+	  color: -moz-ComboboxText;
+	  font: -moz-list;
+	 
+	  line-height: normal !important;
+	  white-space: nowrap !important;
+	  word-wrap: normal !important;
+	  text-align: start;
+	  cursor: default;
+	  box-sizing: border-box;
+	  -moz-user-select: none;
+	  -moz-appearance: menulist;
+	  border-width: 2px;
+	  border-style: inset;
+	  text-indent: 0;
+	  overflow: -moz-hidden-unscrollable;
+	  text-shadow: none;
+	  /* No text-decoration reaching inside, by default */
+	  display: inline-block;
+	  page-break-inside: avoid;
+	  overflow-clip-box: padding-box !important; /* bug 992447 */
+	}
+	select {
+		background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"32\" height=\"24\" viewBox=\"0 0 32 24\"><polygon points=\"0,0 32,0 16,24\" style=\"fill: rgb%28138, 138, 138%29\"></polygon></svg>");
+		background-origin: content-box;
+		background-position-x: 100%;
+		background-position-y: center;
+		background-repeat: no-repeat;
+		background-size: 9px 6px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		font-family: inherit;
+		line-height: normal;
+	}
+	[type="button"], [type="submit"], button, select {
+		-moz-appearance: none;
+	}
+	button, select {
+		text-transform: none;
+	}
+	button, input, optgroup, select, textarea {
+		-x-system-font: none;
+		font-feature-settings: inherit;
+		font-kerning: inherit;
+		font-language-override: inherit;
+		font-size-adjust: inherit;
+		font-stretch: inherit;
+		font-style: inherit;
+		font-synthesis: inherit;
+		font-variant-alternates: inherit;
+		font-variant-caps: inherit;
+		font-variant-east-asian: inherit;
+		font-variant-ligatures: inherit;
+		font-variant-numeric: inherit;
+		font-variant-position: inherit;
+		font-weight: inherit;
+	}
+	.angular-meditor-toolbar select {
+		overflow-x: hidden;
+		overflow-y: hidden;
+		text-overflow: ellipsis;
+		width: 4em;
+	}
+	.angular-meditor-toolbar .meditor-family-selector {
+		width: 7.5em;
+	}
+	.square form {
+		position: fixed;
+		z-index: 90000;
+	}
+	.bold {
+	  font-weight:bold;
+  }
+  .italic {
+	  font-style:italic;
+  }
+  .underline {
+	  text-decoration:underline;
+  }
+  .font-10 {
+	  font-size:10px;
+  }
+  .font-13 {
+	  font-size:13px;
+  }
+  .font-16 {
+	  font-size:16px;
+  }
+  .font-18 {
+	  font-size:18px;
+  }
+  .font-24 {
+	  font-size:24px;
+  }
+  .font-32 {
+	  font-size:32px;
+  }
+  .font-48 {
+	  font-size:48px;
+  }
+  .ff-sans-serif {
+	  font-family:sans-serif;
+  }
+  .ff-source-sans {
+	  font-family:Source Sans Pro;
+  }
+  .ff-monospace {
+	  font-family:monospace;
+  }
+  .ff-serif {
+	  font-family:serif;
+  }
+  .ff-Arial {
+	  font-family:Arial;
+  }
+  .ff-comic-sans {
+	  font-family:'Comic Sans MS';
+  }
+  .ff-Georgia {
+	  font-family:Georgia;
+  }
